@@ -1,0 +1,27 @@
+.employee-list-item.show .star-icon {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.star-icon {
+  width: 25px;
+  height: 25px;
+  color: rgb(238, 183, 55);
+  transform: translateX(20px);
+  opacity: 0;
+  transition: 0.2s;
+}
+.cookie-icon {
+  color: #6ea8fe;
+}
+.employee-list-item.activeClass .cookie-icon {
+  color: rgb(167, 112, 46);
+}
+.trash-icon,
+.cookie-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
